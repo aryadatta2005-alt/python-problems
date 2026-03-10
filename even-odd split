@@ -1,0 +1,10 @@
+list=int(input("Enter the number of elements in the list: "))
+even=[]
+odd=[]
+for i in range(list):
+    if i%2==0:
+        even.append(i)
+    else:
+        odd.append(i)
+print("Even numbers in the list: ", even)  
+print("Odd numbers in the list: ", odd)
